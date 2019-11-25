@@ -1,0 +1,57 @@
+.chat-side
+  .side-header
+    .side-header__box
+      %p.side-header__box__user-name
+        abc
+      %ul.side-header__box__menu         
+        %li.side-header__box__menu__new-group
+          = link_to '#', class: "side__header__btn" do
+            = icon('fa','edit')
+        %li.side-header__box__menu__edit-user
+          = link_to '#', class: "side__header__btn" do
+            = icon('fas','cog' )
+  .groups
+    .group
+      %p.group__group-name
+        =link_to '仲良し', "#",class: "group-name__btn" 
+         
+          
+      %p.group__latest-message
+        =link_to 'おはよー', "#",class: "latest-message__btn" 
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-# .side-header
+-#   = link_to '#', class: "side__header__btn" do
+-#     = icon('fa','edit')
+
+-#   = link_to '#', class: "side__header__btn" do
+-#     = icon('fas','cog' )
+
+-# .groups
+-#   groups
+-#   .group-name--box
+-#     group-name
+-#   .group-latest-message
+-#     latest.message
+
+
+
+-# <i class="far fa-edit"></i>
+-# <i class="fas fa-cog"></i>

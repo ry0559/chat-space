@@ -1,0 +1,31 @@
+.chat-main
+  .main-header
+    .main-header__left-box
+      %h2.main-header__left-box__current-group
+        Group Name
+      %ul.main-header__left-box__member-list
+        Member:
+        %li.main-header__left-box__member-list__member
+          abc  
+    = link_to '#', class: "main-header__edit-btn" do
+      EDIT
+      
+  .messages      
+    .message
+      .message__upper-info
+        %p.message__upper-info__talker
+          abc
+        %p.message__upper-info-dade
+          2019/01/01
+      %P.message__text
+        おはよ
+
+  .form
+    %form.new_message
+      .input-box
+        %input.input-box__text{placeholder: "type a message", type: "text"}
+          %label.input-box__image{for: "message_image"}
+          %i.input-box__btn.fa.fa-image
+        %input.input-box__image__file{type: "file"}
+      %input.submit-btn{type: "submit", value: "SEND"}
+        
