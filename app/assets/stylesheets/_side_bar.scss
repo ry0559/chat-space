@@ -11,7 +11,6 @@
   align-items: center;
   margin: 0;
   display: flex;
-  
   &__box {
     display: flex;
     justify-content: space-between;
@@ -34,44 +33,34 @@ ul.side-header__box__menu {
 
 li {
   display: list-item;
-  
   .side__header__btn {
     color: #ffff; 
-    display: block;
-
-        
+    display: block;      
   }
 }
        
 li.side-header__box__menu__edit-user {
-margin-left: 0.3rem;
-        
+  margin-left: 0.3rem;        
 }
     
-  
-
-
 .groups {
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 20px 20px 0;
-  overflow: scroll;
-  
-  
+  overflow: scroll;   
 }
 
 .group {
   margin-bottom: 40px;
-  
   &__group-name {
     font-size: 15px;
     margin-bottom: 5px;
-  }
-  
-  &__latest-message {
-    font-size: 15px; 
+    &__latest-message {
+      font-size: 15px; 
+    }
   }
 }
+
 .group-name__btn {
   color: #ffff;
   text-decoration: none; 

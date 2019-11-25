@@ -10,15 +10,12 @@
   justify-content: space-between;
   border-bottom: solid 1px #eee;
   overflow: scroll;
-
   &__left-box{
     margin-top: 35px;
-    
     h2 {
       font-size: 20px;
       color: #333;
       margin-bottom: 15px;
-
     }
   }
 }
@@ -27,12 +24,10 @@ ul.main-header__left-box__member-list {
    display: flex;
    font-size: 12px;
    color: #999999;
-
 }
 
 a {
   color: #38aef0;
- 
 }
 
 a.main-header__edit-btn {
@@ -41,8 +36,7 @@ a.main-header__edit-btn {
   padding: 0 20px;
   margin-top: 30px;
   border: solid 1px #38aef0;
-  text-decoration: none;
-  
+  text-decoration: none;  
 }
 
 .messages {
@@ -51,16 +45,13 @@ a.main-header__edit-btn {
   background-color: #fafafa;
   overflow: scroll;
   box-sizing: border-box;
-
 }
 
 .message {
   padding-bottom: 40px;
-
   &__upper-info {
     display: flex;
     margin-bottom: 10px;
-
     p {
       color: #434a54;
       font-weight: bold;
@@ -80,7 +71,6 @@ p.message__text {
   padding: 20px 40px;
   background-color: #ddd;
   box-sizing: border-box;
-
 }
 
 .new_message {
@@ -90,7 +80,6 @@ p.message__text {
 .input-box {
   width: 100%;
   position: relative;
- 
   &__text {
     height: 50px;
     padding: 0 40px 0 10px;
@@ -110,9 +99,6 @@ p.message__text {
   background-color: #38aef0;
   color: white; 
 }
-
-
-
 
 i.input-box__btn {
   font-size: xx-large;
