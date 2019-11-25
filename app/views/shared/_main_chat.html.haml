@@ -23,7 +23,8 @@
       .input-box
         %input.input-box__text{placeholder: "type a message", type: "text"}
           %label.input-box__image{for: "message_image"}
-          %i.input-box__btn.fa.fa-image
-        %input.input-box__image__file{type: "file"}
+        %label
+          %input.input-box__image__file{type: "file"} 
+            %i.input-box__btn.fa.fa-image
       %input.submit-btn{type: "submit", value: "SEND"}
         
