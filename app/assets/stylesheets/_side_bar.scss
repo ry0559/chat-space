@@ -12,8 +12,6 @@
   margin: 0;
   display: flex;
   
- 
-
   &__box {
     display: flex;
     justify-content: space-between;
@@ -24,32 +22,31 @@
   }
 }    
     
-    p.side-header__box__user-name {
-      display: block;
+p.side-header__box__user-name {
+  display: block;
       
-    }
+}
 
-    ul.side-header__box__menu {
-        list-style: none;
-        display: flex;
-    }
-        li {
-          display: list-item;
-          
+ul.side-header__box__menu {
+  list-style: none;
+  display: flex;            
+}
 
-          .side__header__btn {
-            color: #ffff; 
-            display: block;
+li {
+  display: list-item;
+  
+  .side__header__btn {
+    color: #ffff; 
+    display: block;
 
         
-          }
-        }
-      
-      
-      li.side-header__box__menu__edit-user {
-        margin-left: 0.3rem;
+  }
+}
+       
+li.side-header__box__menu__edit-user {
+margin-left: 0.3rem;
         
-      }
+}
     
   
 
@@ -66,23 +63,18 @@
 .group {
   margin-bottom: 40px;
   
-
   &__group-name {
     font-size: 15px;
     margin-bottom: 5px;
-    
   }
-
+  
   &__latest-message {
-    font-size: 15px;
-    
+    font-size: 15px; 
   }
-
 }
 .group-name__btn {
   color: #ffff;
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
 .latest-message__btn {
@@ -97,19 +89,3 @@
 
 
 
-
-// .groups {
-//     height: 100%;
-//     width: 300px;
-//     background-color: black;
-//   .side-header { 
-//     &-box {
-//     height: 16px;
-//     width: 300px;
-//     font: bold;
-//     background-color:#253141;
-//     color: #ffff;
-//     text-align: center;
-//     }    
-//   }
-// }
