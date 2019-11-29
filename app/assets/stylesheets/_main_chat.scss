@@ -26,11 +26,11 @@ ul.main-header__left-box__member-list {
    color: #999999;
 }
 
-a {
+.main-header__edit-btn {
   color: #38aef0;
 }
 
-a.main-header__edit-btn {
+.main-header__edit-btn {
   height: 40px;
   line-height: 40px;
   padding: 0 20px;
@@ -73,11 +73,13 @@ p.message__text {
   box-sizing: border-box;
 }
 
+
+
 .new_message {
   display: flex;
 }
 
-.input-box {
+.form__message {
   width: 100%;
   position: relative;
   &__text {
@@ -89,23 +91,26 @@ p.message__text {
   }  
 }
 
-.input-box__image__file {
+.hidden {
   display: none;
 }  
 
-.submit-btn {
+.form__submit {
   width: 100px;
   height: 50px;
   background-color: #38aef0;
   color: white; 
 }
 
-i.input-box__btn {
+i.fas.fa-image {
   font-size: xx-large;
   position: absolute;
-  top: 10px;
-  right: 10px;
-  margin-right: 30px;
+  right: 140px;
+  bottom: 28px;
+  
+  // top: 10px;
+  // right: 10px;
+  // margin-right: 30px;
 }
 
 
