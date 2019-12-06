@@ -11,14 +11,6 @@
 
   .messages
     = render @messages
-    .message
-      .message__upper-info
-        %p.message__upper-info__talker
-          abc
-        %p.message__upper-info-dade
-          2019/01/01
-      %P.message__text
-        おはよ
   .form
     = form_for [@group, @message] do |f|
       = f.text_field :content, class: 'form__message', placeholder: 'type a message'

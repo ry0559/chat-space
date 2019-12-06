@@ -11,7 +11,7 @@ class MessagesController < ApplicationController
         respond_to do |format|
           format.html { redirect_to group_messages_path, notice: "メッセージを送信しました" }
           format.json
-      end
+    end
       
     else
       @messages = @group.messages.includes(:user)
@@ -28,6 +28,4 @@ class MessagesController < ApplicationController
   def set_group
     @group = Group.find(params[:group_id])
   end
-
-
 end
