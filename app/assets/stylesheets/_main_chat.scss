@@ -49,22 +49,26 @@ ul.main-header__left-box__member-list {
 
 .message {
   padding-bottom: 40px;
-  &__upper-info {
-    display: flex;
-    margin-bottom: 10px;
-    p {
-      color: #434a54;
-      font-weight: bold;
-    }
+  p {
+    color: #434a54;
+    font-weight: bold;
+  }
+
+}
+.upper-message {
+  display: flex;
+  padding-left: 10px;
+  &__date {
+    color: #999999;
+    font-size: 12px;
+    margin-left: 10px;
   }
 }
 
-p.message__text {
-  color: #434a54;
-  font-size: 14px;
-  margin-bottom: 10px;
-
+.lower-message__content {
+  margin-top: 10px;
 }
+
 
 .form {
   height: 90px;
@@ -108,9 +112,6 @@ i.fas.fa-image {
   right: 140px;
   bottom: 28px;
   
-  // top: 10px;
-  // right: 10px;
-  // margin-right: 30px;
 }
 
 
