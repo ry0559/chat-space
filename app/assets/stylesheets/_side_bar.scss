@@ -56,10 +56,11 @@ li.side-header__box__menu__edit-user {
   &__group-name {
     font-size: 15px;
     margin-bottom: 5px;
-    &__latest-message {
-      font-size: 15px; 
-    }
   }
+}
+
+.group__latest-message {
+  font-size: 11px; 
 }
 
 .group-name__btn {

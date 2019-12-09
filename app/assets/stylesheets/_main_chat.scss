@@ -53,6 +53,7 @@ ul.main-header__left-box__member-list {
   p {
     color: #434a54;
     font-weight: bold;
+    font-size: 14px;
   }
 
 }
@@ -72,7 +73,7 @@ ul.main-header__left-box__member-list {
 
 
 .form {
-  height: 90px;
+  height: 94px;
   padding: 20px 40px;
   background-color: #ddd;
   box-sizing: border-box;
@@ -86,7 +87,9 @@ ul.main-header__left-box__member-list {
 
 .form__message {
   width: 100%;
+  padding: 10px;
   position: relative;
+  margin-right: 15px;
   &__text {
     height: 50px;
     padding: 0 40px 0 10px;
@@ -107,12 +110,11 @@ ul.main-header__left-box__member-list {
   color: white; 
 }
 
-i.fas.fa-image {
-  font-size: xx-large;
+i.far.fa-image {
+  font-size: 1.4rem;
   position: absolute;
-  right: 140px;
-  bottom: 28px;
-  
+  right: 155px;
+  bottom: 31px;
 }
 
 
